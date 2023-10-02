@@ -3,7 +3,6 @@
 <head>
 	<meta charset='utf-8' />
 	<meta name='viewport' content='width=device-width, user-scalable=no' />
-	<link id='-gd-engine-icon' rel='icon' type='image/png' href='favicon.png' />
 	<title>Purgatory</title>
 	<style type='text/css'>
 
@@ -81,6 +80,7 @@
 		}
 
 		#status-indeterminate {
+			height: 42px;
 			visibility: visible;
 			position: relative;
 		}
@@ -112,6 +112,8 @@
 			visibility: visible;
 		}
 	</style>
+<link id='-gd-engine-icon' rel='icon' type='image/png' href='purgatory.icon.png' />
+<link rel='apple-touch-icon' href='purgatory.apple-touch-icon.png'/>
 
 </head>
 <body>
@@ -137,7 +139,7 @@
 	<script type='text/javascript' src='purgatory.js'></script>
 	<script type='text/javascript'>//<![CDATA[
 
-		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"purgatory","experimentalVK":false,"fileSizes":{"purgatory.pck":96384,"purgatory.wasm":18140456},"gdnativeLibs":[]};
+		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"purgatory","experimentalVK":false,"fileSizes":{"purgatory.pck":114880,"purgatory.wasm":26067241},"focusCanvas":true,"gdnativeLibs":[]};
 		var engine = new Engine(GODOT_CONFIG);
 
 		(function() {
